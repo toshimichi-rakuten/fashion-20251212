@@ -84,12 +84,13 @@ body {
     flex-direction: column;
     flex-flow: column nowrap;
     margin: 40px 0 20px;
+    list-style: none;
+    padding: 0;
 }
 
 .campaign-term-item {
     border-color: rgb(102, 102, 102);
     color: rgb(102, 102, 102);
-    display: list-item;
     font-size: 13px;
     line-height: 19.5px;
     outline-color: rgb(102, 102, 102);
@@ -103,10 +104,11 @@ body {
 .campaign-details-list {
     display: flex;
     justify-content: center;
+    list-style: none;
+    padding: 0;
 }
 
 .campaign-details-item {
-    display: list-item;
 }
 
 .campaign-details-link {
