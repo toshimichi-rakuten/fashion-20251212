@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.gift-page-container {
+    padding-top: 80px;
+}
+
+.page-navigation {
+    margin: 0 auto 80px;
+    max-width: 960px;
+}
+
+.nav-list {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    justify-content: center;
+}
+
+.nav-item {
+    border-right: 1px solid rgb(204, 204, 204);
+    display: list-item;
+}
+
+.nav-item-last {
+    display: list-item;
+}
+
+.nav-link {
+    cursor: pointer;
+    display: inline;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    line-height: 18.2px;
+    padding-right: 29px;
+    position: relative;
+    text-align: center;
+}
+
+.section-header {
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-family: "Noto Sans JP";
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.category-section {
+    padding-bottom: 64px;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 12px;
+}
+
+.category-item {
+    display: list-item;
+    height: 151px;
+    margin: 0 4px;
+    text-align: center;
+    width: 9%;
+}
+
+.category-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    outline-color: rgb(102, 102, 102);
+    text-align: center;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.category-image {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 7px 0px;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    margin-bottom: 8px;
+    max-width: 100%;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-align: center;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.category-name {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    outline-color: rgb(102, 102, 102);
+    text-align: center;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.recommended-section {
+    padding-bottom: 64px;
+}
+
+.product-section {
+    height: 100%;
+    padding: 0 10px;
+}
+
+.product-grid-wrapper {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+}
+
+.product-item {
+    display: list-item;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    width: calc(20% - 22.4px);
+}
+
+.product-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    margin-bottom: 4px;
+    outline-color: rgb(102, 102, 102);
+    position: relative;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.product-image {
+    aspect-ratio: auto 250 / 300;
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 100%;
+}
+
+.product-brand {
+    line-height: 16.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-price-wrapper {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.product-price {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: inline;
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.price-amount {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: inline;
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.brand-logo-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 14px 64px;
+    width: 100%;
+}
+
+.brand-logo-item {
+    border: 1px solid rgb(221, 221, 221);
+    display: list-item;
+    margin-bottom: 20px;
+    margin-left: 13px;
+    width: 140px;
+}
+
+.brand-logo-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    outline-color: rgb(102, 102, 102);
+    padding: 10px 0;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.brand-logo {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 100%;
+}
+
+.search-section {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0 auto 64px;
+    width: 600px;
+}
+
+.search-form {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.form-row {
+    align-items: center;
+    border-bottom: 1px solid rgb(210, 211, 213);
+    display: flex;
+    font-family: "Noto Sans JP", sans-serif;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.form-label {
+    cursor: default;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    width: 30%;
+}
+
+.form-input-wrapper {
+    font-family: "Noto Sans JP", sans-serif;
+    position: relative;
+    width: 70%;
+}
+
+.form-input {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    color: rgb(74, 60, 46);
+    cursor: text;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 22.5px;
+    outline-color: rgb(74, 60, 46);
+    overflow: clip;
+    padding: 8px 48px;
+    text-decoration-color: rgb(74, 60, 46);
+    text-emphasis-color: rgb(74, 60, 46);
+    width: 100%;
+}
+
+.form-select-wrapper {
+    font-family: "Noto Sans JP", sans-serif;
+    position: relative;
+    width: 70%;
+}
+
+.form-select {
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    cursor: default;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 21px;
+    outline-color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    white-space: pre;
+    width: 100%;
+}
+
+.form-submit {
+    background-color: rgb(51, 51, 51);
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: Arial;
+    height: 56px;
+    letter-spacing: 1.44px;
+    line-height: 21.6px;
+    margin: 24px auto 0;
+    outline-color: rgb(255, 255, 255);
+    overflow: clip;
+    padding: 9px 0;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    user-select: none;
+    white-space: pre;
+    width: 270px;
+}
