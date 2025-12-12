@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.category-section {
+    padding-bottom: 64px;
+}
+
+.category-title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.product-section {
+    height: 100%;
+    padding: 0 10px;
+}
+
+.product-grid-wrapper {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.product-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: -20px;
+}
+
+.product-item {
+    display: list-item;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    width: calc(20% - 22.4px);
+}
+
+.product-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    margin-bottom: 4px;
+    outline-color: rgb(102, 102, 102);
+    position: relative;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.product-image {
+    aspect-ratio: auto 250 / 300;
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 100%;
+}
+
+.product-brand {
+    line-height: 16.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product-price-wrapper {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    overflow: hidden;
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.product-price {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: inline;
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.price-amount {
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    display: inline;
+    line-height: 16.8px;
+    outline-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-emphasis-color: rgb(0, 0, 0);
+    white-space: nowrap;
+}
+
+.product-badge {
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(68, 68, 68);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 15px;
+    margin-bottom: 3.2px;
+    outline-color: rgb(68, 68, 68);
+    padding: 1px 4px;
+    text-decoration-color: rgb(68, 68, 68);
+    text-emphasis-color: rgb(68, 68, 68);
+}
+
+.sale-price {
+    border-color: rgb(204, 0, 0);
+    color: rgb(204, 0, 0);
+    outline-color: rgb(204, 0, 0);
+    text-decoration-color: rgb(204, 0, 0);
+    text-emphasis-color: rgb(204, 0, 0);
+}
+
+.sale-price .price-amount {
+    border-color: rgb(204, 0, 0);
+    color: rgb(204, 0, 0);
+    outline-color: rgb(204, 0, 0);
+    text-decoration-color: rgb(204, 0, 0);
+    text-emphasis-color: rgb(204, 0, 0);
+}
+
+.discount-badge {
+    border-color: rgb(204, 0, 0);
+    color: rgb(204, 0, 0);
+    display: inline;
+    font-size: 11.4px;
+    line-height: 16.8px;
+    margin-left: 8px;
+    outline-color: rgb(204, 0, 0);
+    text-decoration-color: rgb(204, 0, 0);
+    text-emphasis-color: rgb(204, 0, 0);
+    white-space: nowrap;
+}
+
+.discount-percentage {
+    border-color: rgb(204, 0, 0);
+    color: rgb(204, 0, 0);
+    display: inline;
+    font-size: 11.4px;
+    line-height: 16.8px;
+    outline-color: rgb(204, 0, 0);
+    text-decoration-color: rgb(204, 0, 0);
+    text-emphasis-color: rgb(204, 0, 0);
+    white-space: nowrap;
+}
+
+.view-more-section {
+    margin-top: 32px;
+}
+
+.view-more-button {
+    align-items: center;
+    border: 1px solid rgb(51, 51, 51);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: flex;
+    font-family: "Noto Sans JP";
+    height: 56px;
+    justify-content: center;
+    margin: 20px auto 0;
+    outline-color: rgb(102, 102, 102);
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 480px;
+    max-width: 100%;
+}
