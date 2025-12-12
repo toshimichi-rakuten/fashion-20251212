@@ -18,10 +18,11 @@ body {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: -20px;
+    list-style: none;
+    padding: 0;
 }
 
 .product-item {
-    display: list-item;
     margin-bottom: 20px;
     margin-right: 28px;
     width: calc(20% - 22.4px);
@@ -50,6 +51,7 @@ body {
     text-decoration-color: rgb(102, 102, 102);
     text-emphasis-color: rgb(102, 102, 102);
     width: 100%;
+    object-fit: contain;
 }
 
 .product-brand {

@@ -14,7 +14,6 @@ body {
 .tab-item {
     background-color: rgb(255, 255, 255);
     cursor: pointer;
-    display: list-item;
     font-family: "Noto Sans JP", sans-serif;
     font-size: 16px;
     font-weight: 600;
