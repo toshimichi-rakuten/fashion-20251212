@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.campaign-container {
+    max-width: 100%;
+}
+
+.campaign-title {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.campaign-title-accent {
+    display: inline;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.campaign-entry-section {
+    margin-bottom: 32px;
+}
+
+.campaign-entry-button {
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1.25px 6px 0px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    height: 56px;
+    justify-content: center;
+    line-height: 16.9px;
+    margin: 0 auto;
+    outline-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-emphasis-color: rgb(255, 255, 255);
+    width: 480px;
+    max-width: 100%;
+}
+
+.campaign-period-section {
+    margin-bottom: 40px;
+}
+
+.campaign-period-content {
+    justify-content: center;
+}
+
+.campaign-period-label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+.campaign-period-dates {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.campaign-terms-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column nowrap;
+    margin: 40px 0 20px;
+}
+
+.campaign-term-item {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    display: list-item;
+    font-size: 13px;
+    line-height: 19.5px;
+    outline-color: rgb(102, 102, 102);
+    padding-left: 19.5px;
+    position: relative;
+    text-align: center;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.campaign-details-list {
+    display: flex;
+    justify-content: center;
+}
+
+.campaign-details-item {
+    display: list-item;
+}
+
+.campaign-details-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: inline;
+    outline-color: rgb(102, 102, 102);
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
