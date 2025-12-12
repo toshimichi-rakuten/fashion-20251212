@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.brand-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.brand-item {
+    display: list-item;
+}
+
+.brand-link {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    display: flex;
+    outline-color: rgb(102, 102, 102);
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+}
+
+.brand-product-image {
+    border-color: rgb(102, 102, 102);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 50%;
+}
+
+.brand-logo-image {
+    border: 1px solid rgb(209, 209, 209);
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+    outline-color: rgb(102, 102, 102);
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    text-decoration-color: rgb(102, 102, 102);
+    text-emphasis-color: rgb(102, 102, 102);
+    width: 50%;
+}
