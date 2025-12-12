@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.gender-tabs {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tab-item {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: list-item;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.8px;
+    padding: 14px 0;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+.tab-women {
+    border-top: 1px solid rgb(199, 199, 199);
+    border-right: 1px solid rgb(199, 199, 199);
+}
+
+.tab-men {
+    border-top: 1px solid rgb(199, 199, 199);
+    border-left: 1px solid rgb(199, 199, 199);
+}
